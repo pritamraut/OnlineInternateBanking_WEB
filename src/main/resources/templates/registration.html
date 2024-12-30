@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank of America - User Registration</title>
+    <link rel="stylesheet" href="css/registration.css">
+</head>
+<body>
+
+    <h2>User Registration</h2>
+
+    <div class="form-container">
+        <form th:action="@{/register}" th:object="${user}" method="post">
+            
+            <div class="form-group">
+                <label for="firstName">First Name</label>
+                <input type="text" id="firstName" th:field="*{firstName}" placeholder="Enter your first name" required />
+            </div>
+
+            <div class="form-group">
+                <label for="lastName">Last Name</label>
+                <input type="text" id="lastName" th:field="*{lastName}" placeholder="Enter your last name" required />
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" th:field="*{email}" placeholder="Enter your email" required />
+            </div>
+
+            <div class="form-group">
+                <label for="phoneNumber">Phone Number</label>
+                <input type="text" id="phoneNumber" th:field="*{phoneNumber}" placeholder="Enter your phone number" required />
+            </div>
+
+            <div class="form-group">
+                <label for="address">Address</label>
+                <textarea id="address" th:field="*{address}" placeholder="Enter your address" rows="3" required></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="ssnNumber">SSN Number</label>
+                <input type="text" id="ssnNumber" th:field="*{ssnNumber}" placeholder="Enter your SSN number" required />
+            </div>
+
+            <div class="form-group">
+                <label for="userId">User ID</label>
+                <input type="text" id="userId" th:field="*{userId}" placeholder="Create a User ID" required />
+            </div>
+
+            <div class="form-group">
+                <label for="userPassword">Password</label>
+                <input type="password" id="userPassword" th:field="*{userPassword}" placeholder="Create a password" required />
+            </div>
+
+            <div class="form-group">
+                <button type="submit">Register</button>
+            </div>
+
+        </form>
+    </div>
+
+</body>
+</html>

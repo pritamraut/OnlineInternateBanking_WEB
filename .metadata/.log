@@ -1,0 +1,163 @@
+!SESSION 2024-12-23 00:10:43.564 -----------------------------------------------
+eclipse.buildId=4.18.1.202305021758
+java.version=17.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2024-12-23 00:10:45.267
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-12-23 00:10:57.968
+!MESSAGE Logback config file: D:\FullStack Developement Preparation\Projects\OnlineInternateBanking_WEB\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.1.100.20230106-1511.xml
+
+!ENTRY org.eclipse.jface 2 0 2024-12-23 00:11:01.057
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-12-23 00:11:01.057
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-12-23 00:11:08.048
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\rp970'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2024-12-31 01:48:13.098 -----------------------------------------------
+eclipse.buildId=4.18.1.202305021758
+java.version=17.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2024-12-31 01:48:14.596
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-12-31 01:48:32.401
+!MESSAGE Logback config file: D:\FullStack Developement Preparation\Projects\OnlineInternateBanking_WEB\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.1.100.20230106-1511.xml
+
+!ENTRY org.eclipse.jface 2 0 2024-12-31 01:48:35.170
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-12-31 01:48:35.170
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-12-31 01:48:39.702
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\rp970'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-31 01:49:50.755
+!MESSAGE Classpath changed for project: demo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-31 01:49:51.738
+!MESSAGE Classpath changed for project: OnlineInternateBanking_API
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-31 01:49:51.739
+!MESSAGE Classpath changed for project: PlanYourHappiness
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-31 01:49:51.741
+!MESSAGE Classpath changed for project: demo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-31 01:49:51.741
+!MESSAGE Classpath changed for project: springsecurity
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-31 01:49:53.298
+!MESSAGE Classpath changed for project: OnlineInternateBanking_API
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-31 01:49:53.298
+!MESSAGE Classpath changed for project: PlanYourHappiness
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-31 01:49:53.299
+!MESSAGE Classpath changed for project: demo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-31 01:49:53.299
+!MESSAGE Classpath changed for project: springsecurity
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-31 01:49:57.596
+!MESSAGE Classpath changed for project: OnlineInternateBanking_API
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-31 01:49:57.597
+!MESSAGE Boot project ADDED: OnlineInternateBanking_API
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-31 01:49:57.598
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-31 01:49:57.617
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-31 01:49:57.632
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-12-31 01:49:57.654
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 16476
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-31 01:49:59.249
+!MESSAGE Classpath changed for project: OnlineInternateBanking_API
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-31 01:50:02.337
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-31 01:50:25.209
+!MESSAGE Classpath changed for project: PlanYourHappiness
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-31 01:50:25.221
+!MESSAGE Boot project ADDED: PlanYourHappiness
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-31 01:50:25.308
+!MESSAGE Classpath changed for project: PlanYourHappiness
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-31 01:50:27.139
+!MESSAGE Classpath changed for project: demo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-31 01:50:27.140
+!MESSAGE Boot project ADDED: demo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-31 01:50:30.270
+!MESSAGE Classpath changed for project: springsecurity
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-31 01:50:30.303
+!MESSAGE Boot project ADDED: springsecurity
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-31 01:50:30.460
+!MESSAGE Classpath changed for project: springsecurity
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-31 01:50:40.577
+!MESSAGE Classpath changed for project: PlanYourHappiness
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-31 01:50:41.003
+!MESSAGE Classpath changed for project: demo
